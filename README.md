@@ -1,6 +1,6 @@
 # Rabbitmq rpc
 
-Simple implementation of RPC with rabbitmq
+Simple implementation of RPC with rabbitmq for nodejs
 
 ## Usage
 
