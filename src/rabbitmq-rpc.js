@@ -1,7 +1,7 @@
 const { v4: uuidv4 } = require('uuid')
 
 class RabbitmqRPC {
-  constructor({ timeout = 5000 }) {
+  constructor({ timeout = 5000 } = {}) {
 		this.timeout = timeout
     this.connection = null
     this.channel = null
