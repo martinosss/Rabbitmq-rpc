@@ -6,7 +6,7 @@ Simple implementation of RPC with rabbitmq for nodejs
 
 ```javascript
 const RabbitmqRPC = require('rabbitmq-rpc.js');
-const amqp = require("amqplib");
+const amqp = require('amqplib');
 
 const example = async () => {
     const rabbitmqRPC = new RabbitmqRPC({
