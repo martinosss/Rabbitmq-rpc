@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq-rpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.9.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
